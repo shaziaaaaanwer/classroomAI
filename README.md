@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Classroom AI
 
-## Getting Started
+Classroom AI is a personal AI-powered mentor that generates complete learning experiences based on any topic you enter. From curriculum to quizzes, flashcards, and an interactive AI tutor—everything is tailored to your learning needs.
 
-First, run the development server:
+##  Live Demo  
+[Click here to try Classroom AI](https://classroom-ai-8fp5.vercel.app/)  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Start any course instantly by entering a topic (e.g., “Python”)
+- Auto-generated structured curriculum and lessons
+- Built-in code editor for hands-on practice
+- Adaptive quizzes and flashcards by difficulty level
+- AI tutor for instant guidance
+- Clean, responsive UI with modern UI/UX components
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+##  Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+**Frontend**: React, Next.js 15, TypeScript, Tailwind CSS, Radix UI  
+**AI Integration**: Genkit AI (`@genkit-ai/googleai`)  
+**Backend**: Firebase (Authentication + Hosting)  
+**Charts**: Recharts  
+**Forms**: React Hook Form + Zod  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+##  Upcoming Features
 
-## Deploy on Vercel
+-  Voice-based AI tutor for conversational learning  
+-  Personal course library & topic bookmarking  
+-  AI-powered revision planner with spaced repetition  
+-  Simplified lesson summaries and glossary  
+-  Learning analytics & daily challenges
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##  Contributing
+
+Contributions are welcome! Whether it’s fixing bugs, improving UI, or adding features, feel free to fork the repo and submit a pull request.
+
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature-name`)  
+3. Make your changes  
+4. Commit and push (`git commit -m "Added feature"` → `git push origin feature-name`)  
+5. Open a pull request  
+
+For major changes, please open an issue first to discuss your ideas.  
+Let’s build better learning—together!
+
+---
